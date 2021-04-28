@@ -1,3 +1,4 @@
+# Fonts
 font:
   normal:
     family: JetBrains Mono
@@ -10,12 +11,12 @@ font:
     style: Regular Italic
   size: 11
 
-background_opacity: 1.0
-
+# Cursor
 cursor:
   style: Underline
   unfocused_hollow: false
-
+  
+# Misc
 live_config_reload: true
 
 # Colors
@@ -27,25 +28,29 @@ colors:
 
   # Normal colors
   normal:
-    black: '0x16161c' #d
-    red: '0xAA3032' #d
-    green: '0x1A5630' #d
-    yellow: '0xDE9132' #d
-    blue: '0x396DE0' #d
+    black: '0x16161c'
+    red: '0xAA3032'
+    green: '0x1A5630'
+    yellow: '0xDE9132'
+    blue: '0x396DE0'
     magenta: '0xC670F9' 
     cyan: '0x6D72F2'
-    white: '0xd5d8da' #d
+    white: '0xd5d8da'
+  # Bright colors
   bright:
-    black: '0x16161c' #d
-    red: '0xAA3032' #d
-    green: '0x1A5630' #d
-    yellow: '0xDE9132' #d
-    blue: '0x396DE0' #d
+    black: '0x16161c'
+    red: '0xAA3032'
+    green: '0x1A5630'
+    yellow: '0xDE9132'
+    blue: '0x396DE0'
     magenta: '0xC670F9'
     cyan: '0x6D72F2'
-    white: '0xd5d8da' #d
+    white: '0xd5d8da'
 
+# Window config
 window:
   padding:
     x: 10
     y: 10
+    
+background_opacity: 1.0
